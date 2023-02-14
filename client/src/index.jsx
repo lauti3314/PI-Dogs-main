@@ -8,7 +8,7 @@ import {store} from './store'
 import axios from 'axios';
 
 //axios.defaults.baseURL = "http://localhost:3001/";
-axios.defaults.baseURL = "https://deploy-production-3f0f.up.railway.app/";
+axios.defaults.baseURL = "https://pi-dogs-main-production-b45a.up.railway.app";
 
 ReactDOM.render(
   <Provider store ={store}>
