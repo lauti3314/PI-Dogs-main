@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export function getAllDogs() {
     return async function (dispatch) {
-        var json = await axios.get(`http://localhost:3001/dogs`,{
+        var json = await axios.get(`/dogs`,{
 
         });
         return dispatch({//necesario para despachar la accion
@@ -14,7 +14,7 @@ export function getAllDogs() {
 
 export function getTemperaments() {
     return async function (dispatch) {
-        var json = await axios.get(`http://localhost:3001/temperament`); 
+        var json = await axios.get(`/temperament`); 
         return dispatch({
             type: "GET_TEMPERAMENTS",
             payload: json.data,
