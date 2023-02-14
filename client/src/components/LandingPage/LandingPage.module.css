@@ -15,15 +15,15 @@
 }
 
 .main_left_container h1{
-    color: white;
-    text-shadow: 0 0 2px #25b687;
+    color: #1b0000;
+    text-shadow: 0 0 4px #fff;
     font-size: 6rem;
     margin-bottom: 5%;
 }
 
 .main_left_container h3{
-    color: white;
-    text-shadow: 0 0 3px #25b687;
+  
+    text-shadow: 0 0 3px #fff;
     font-size: 1.3rem;
     margin-bottom: 3%;
 }
@@ -36,8 +36,8 @@
 }
 
 .left_paragraph p{
-    color: white;
-    text-shadow: 0 0 1px #25b687;
+    
+    text-shadow: 0 0 1px #fff;
     font-size: 1.1rem;
     width: 23rem;
     text-align:left

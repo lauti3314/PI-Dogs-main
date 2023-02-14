@@ -106,6 +106,7 @@ export default function Home (){
         <hr />
   
       <div className={style.main_container}>
+        <div className={style.flex_container}>
         <div className={style.container_cards}>
           {currentDogs?.map((el) => {//validacion que existan los datos
             return(
@@ -119,6 +120,7 @@ export default function Home (){
               </div>      
             )
           })}
+        </div>
         </div>
         <div className={`${style.pagination}`}>
           <Paginate dogsPerPage={dogsPerPage} allDogs={allDogs.length} paginado={paginado}/> {/*el valor de la funcion de paginado aumenta segun el bucle for en el componente Paginate*/}

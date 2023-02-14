@@ -112,11 +112,15 @@ button{
     grid-gap: 5% 0.9%;
     justify-items: center;
     padding: 2rem 0 2rem 0;
+    margin: 10px;
 }
 
 .container_card{ /* estilos de carta individual */
     background-color: #25b687;
-    width: 92.5%;
+    margin: 10px;
+    padding-right: 0;
+    
+    width: 80%;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
@@ -148,4 +152,8 @@ button{
 .pagination{
     margin-left: 0;
     padding-left: 0;
+}
+
+.flex_container{
+    
 }

@@ -8,20 +8,20 @@ button{
 }
 
 .button_home{
-    width: 45%;
+    width: 35%;
+    background-color: #222;
+    color: white;
     max-width: 370px;
     font-size: 1.2rem; 
-    background: none;
+
     padding: 0.65rem 0.6rem;
     transition: color 0.5s linear;
     z-index: 100;
     border: 0.1rem solid white;
-    outline: 0.1rem solid #25b687;
-    text-shadow: 0 0 3px #25b687;
 }
 
 .button_home:hover{
-    color: #25b687;
+    color: #000;
 }
 
 .button_home::before,
