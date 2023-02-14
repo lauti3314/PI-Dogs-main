@@ -1,0 +1,44 @@
+.main_container{
+    background-image: url("./fondo3.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position-y: center;
+    display: flex;
+    
+}
+
+.main_left_container{
+    width: 50vw;
+    padding-top: 3rem;
+    position: relative;
+}
+
+.main_left_container h1{
+    color: white;
+    text-shadow: 0 0 2px #25b687;
+    font-size: 6rem;
+    margin-bottom: 5%;
+}
+
+.main_left_container h3{
+    color: white;
+    text-shadow: 0 0 3px #25b687;
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+}
+
+.main_left_container .left_paragraph{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+
+.left_paragraph p{
+    color: white;
+    text-shadow: 0 0 1px #25b687;
+    font-size: 1.1rem;
+    width: 23rem;
+    text-align:left
+}

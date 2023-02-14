@@ -1,0 +1,24 @@
+.nav_container{
+    padding: 20px 360px;
+}
+
+.ul_container{
+    padding: 0 0 5rem 0.5rem;
+}
+
+.li_container{
+    list-style: none;
+    float: left;
+    margin: 0.2rem;
+    text-align: center;
+}
+
+.li_container button{
+    color: #575025;
+    background-color: white;
+    width: 2.1rem;
+    padding: 0.5rem 0.6rem;
+    border-radius: 25%;
+    border: 1px solid #575025;
+    text-align: center;
+}

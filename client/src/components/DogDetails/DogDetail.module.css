@@ -1,0 +1,112 @@
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 110vh;
+  }
+  
+  .sub_container{
+      width: 105%;
+      border: 0.5rem solid #25b687;
+      border-radius: 15px;
+  
+      box-shadow: 14px 15px 3px -4px rgba(0,0,0,0.75);
+  }
+  
+  .container_elements{
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      left: 25%;
+      top: 25%;
+      color: #575025;
+      /* background-color: #25b687; */
+      padding: 1rem 0 1rem 1rem;
+  }
+  
+  button{ 
+      cursor: pointer; 
+      border: none;
+      position: relative;
+      border-radius: 5px;
+  }
+  
+  .button_home{
+      position: absolute;
+      top: 7%;
+  
+      width: 100px;
+      height: 40px;
+  
+      font-size: 1.1rem; 
+      background: none;
+      padding: 0.65rem 0.6rem;
+      transition: color 0.5s linear;
+      z-index: 100;
+      border: 0.1rem solid white;
+      outline: 0.1rem solid #25b687;
+      text-shadow: 0 0 3px #25b687;
+      color: #25b687;
+  }
+  
+  .button_home:hover{
+      color: white;
+  }
+  
+  .button_home::before,
+  .button_home::after{
+      content: "";
+      display: block;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: #25b687;
+      height: 100%;
+      width: 100%;
+      transition: transform 0.5s linear;
+      z-index: -10;
+  }
+  
+  .button_home::before{ transform: rotateY(90deg); }
+  
+  .button_home::after{ transform: rotateX(90deg); }
+  
+  .button_home:hover::before,
+  .button_home:hover::after{ 
+      transform: rotate(0);
+  }
+  
+  
+  .sub_container img{
+      width: 450px;
+      max-width: 600px;
+      max-height: 370px;
+      object-fit: cover;
+      border-radius: 15px;
+  }
+  
+  .right_container{
+      padding-left: 5%;
+  }
+  
+  .right_container h1{
+      margin: 0;
+  }
+  
+  .right_container h3{
+      margin: 0.6rem;
+  }
+  
+  .list_container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 0;
+  }
+  
+  .list_container li{
+      list-style: none;
+      padding: 0.2rem 0.4rem;
+  }

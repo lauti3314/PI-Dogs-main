@@ -1,0 +1,48 @@
+/* decorado del boton de home */
+button{ 
+    cursor: pointer; 
+    border: none;
+    position: relative;
+    color: white;
+    border-radius: 5px;
+}
+
+.button_home{
+    width: 45%;
+    max-width: 370px;
+    font-size: 1.2rem; 
+    background: none;
+    padding: 0.65rem 0.6rem;
+    transition: color 0.5s linear;
+    z-index: 100;
+    border: 0.1rem solid white;
+    outline: 0.1rem solid #25b687;
+    text-shadow: 0 0 3px #25b687;
+}
+
+.button_home:hover{
+    color: #25b687;
+}
+
+.button_home::before,
+.button_home::after{
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.5s linear;
+    z-index: -10;
+}
+
+.button_home::before{ transform: rotateY(90deg); }
+
+.button_home::after{ transform: rotateX(90deg); }
+
+.button_home:hover::before,
+.button_home:hover::after{ 
+    transform: rotate(0);
+}
